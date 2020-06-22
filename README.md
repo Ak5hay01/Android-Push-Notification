@@ -11,6 +11,8 @@ In the dependencies part of the build.gradel file add
 
 Make sure google() is added under repositories in allprojects part of the build.gradel file.
 
+
+
 Now you make changes in build.gradel(:app). Add following plugin below apply plugin: 'com.android.application'.
 
 apply plugin: 'com.google.gms.google-services' 
@@ -18,7 +20,11 @@ apply plugin: 'com.google.gms.google-services'
 Now under dependencies add 
  implementation 'com.google.firebase:firebase-messaging:17.3.4'
  
+ 
+ 
 You need to add google-services.json file generated from firebase console while creating app on firebase in app folder. 
+
+
 
 For modifying notification icon add this in AndroidManifest.xml file
 
