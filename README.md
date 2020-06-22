@@ -21,14 +21,6 @@ Now under dependencies add
  implementation 'com.google.firebase:firebase-messaging:17.3.4'
  
  
- 
 You need to add google-services.json file generated from firebase console while creating app on firebase in app folder. 
 
-
-
-For modifying notification icon add this in AndroidManifest.xml file
-
-<meta-data android:name="com.google.firebase.messaging.default_notification_icon"
-            android:resource="@drawable/cycle" />
-            
 
