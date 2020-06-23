@@ -1,7 +1,7 @@
-# PushNotificationAndroid
-Sending push notification to Android devices using python server 
+# Push-Notification-Android
+#Sending push notification to Android devices using python server 
 
-Notification can be sent to any Android or iOS device using Firebase and pyfcm. 
+#Notification can be sent to any Android or iOS device using Firebase and pyfcm. 
 
 You need to create an account on firebase console, enable GCM and get the server key for authentication on python server. On Android or iOS device get the token(Unique identification key for that perticular device). Send that key to server side in background for initiating push notification to the device from python backend. 
 
