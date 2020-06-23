@@ -7,7 +7,7 @@ You need to create an account on firebase console, enable GCM and get the server
 
 1) In the dependencies part of the build.gradel file add 
 
- classpath 'com.google.gms:google-services:4.3.3'
+    classpath 'com.google.gms:google-services:4.3.3'
 
 2) Make sure google() is added under repositories in allprojects part of the build.gradel file.
 
